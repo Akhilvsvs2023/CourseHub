@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    width: 100%;
+    background-color: #00DDFF;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+video{
+    margin: 0 auto auto;
+    height: 400px;
+}
+.title{
+    text-align: center;
+    font-size: 65px;
+    font-weight: normal;
+}
+a{
+    color: rgb(52, 46, 46);
+}
+a:hover{
+    color: rgb(39, 8, 175); 
+}
+button{
+    background-color: #28a1ed;
+}
+button:hover{
+    background-color: #1188d3;
+}
+
+.header{
+    background-color:#1561ad;
+    height: 150px;
+    width: 100%;
+}
+.header img{
+    margin-top: 2%;
+    height: 60%;
+    width: auto;
+    margin-left: 40%;
+}
+.header button{
+    margin-top: 70px;
+    margin-right: 10%;
+    border-radius: 10px;
+    float: right;
+    height: 40px;
+    width: 100px;
+}
+
+.menubar{
+    background-color: #5D8AA8;
+    height: auto;
+}
+.menubarlink{
+    text-decoration: none;
+    font-weight: bolder;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    color: rgb(19, 5, 64);
+}
+
+
+.courses{
+    background-color:#94f0f1;
+    border-radius: 25px;
+    height: 900px;
+    margin: 0 auto auto;
+    width: 80%;
+}
+.coursesection{
+    border: 1px solid;    
+    background-image: linear-gradient(to  right, aqua, rgb(206, 8, 237));
+    box-shadow: 5px 5px;
+    margin: 3% 2%;
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+.coursesection img{    
+    width: 100%;
+    height: 150px;
+}
+.coursesection button{
+    margin-left: 35%;
+    margin-top: 5px;
+    border-radius: 5px;
+    height: 25px;
+    width: 80px;
+}
+
+
+.achievements img{
+    margin-top: 40px;
+    height: 300px;
+    padding: 20px;
+}
+
+.aboutus{
+    background-color: #94f0f1;
+    border-radius: 25px;
+    margin: 0 auto auto;
+    width: 80%;
+}
+.dropdown{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 5px;
+}
+.dropdown ul{
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.dropdown blockquote{
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+.footer{
+    background-color: #1561ad;
+    height:300px;
+    width: 100%;
+}
+.social{
+    float: left;
+    height: 100%;
+    width: 40%;
+}
+.social a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.feedback{
+    float: right;
+    height:auto ;
+    width: 50%;
+}
+.feedback form{
+    color: rgb(52, 46, 46);
+    font-weight: bold;
+    text-align: right;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.feedback form input{
+    background-color: #94f0f1;
+}
+.feedback form textarea{
+    background-color: #94f0f1;
+}
+#submit{
+    margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom: 5%;
+    background-image: linear-gradient(to bottom right, rgb(87, 137, 230), rgb(7, 243, 86));
+    border-radius: 5px;
+    height: 25px;
+    width: 80px;
+}
+.contact{
+    height: 25px;
+    background-color: #1561ad;
+}
+.phone{
+    float: left;
+    font-size: 20px;
+}
+.mail{
+    float: right;
+    font-size: 20px;
+}
+
+
+
+.loginform{
+    margin: 0 auto auto;
+    border: 1px solid;
+    background-color: #94f0f1;
+    text-align: center;
+    margin-top: 100px;
+    height: auto;
+    width: 400px;
+}
+.loginform form{
+    font-size: 20px;
+    font-weight: bold;
+}
+.error{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.coursedetails{
+    background-image: linear-gradient(to  right, aqua, rgb(206, 8, 237));
+    width: 30%;
+    box-shadow: 2px 2px;
+    border: 1px solid;
+    margin: 0 auto auto;
+}
+.coursedetails img{
+    width: 100%;
+}
+.coursedetails ul{
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.coursedetails  blockquote{
+    background-image: radial-gradient(rgb(179, 0, 255),rgb(0, 149, 255));
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5%;
+    color: rgb(208, 5, 45);
+}

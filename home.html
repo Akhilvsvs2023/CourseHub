@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleSheet.css">
+    <link rel="icon" href="./Images/icon.png">
+    <script type="text/javascript" src="./javascript.js"></script>
+    <title>CourseHub</title>
+</head>
+
+<body onload="check()">
+    <div class="header" id="header">
+        <img src="./Images/logo.png" alt="CourseHub logo"> 
+        <button onclick="logout()">LOGOUT</button> 
+    </div>
+    <div class="menubar">
+        <a href="#header" class="menubarlink">Home</a>&nbsp;
+        <a href="#courses" class="menubarlink">Courses</a>&nbsp;
+        <a href="#achievements" class="menubarlink">Milestones</a>&nbsp;
+        <a href="#aboutus" class="menubarlink">Abouts Us</a>
+    </div>
+    <div class="bodyPart">
+        <div class="courses" id="courses">
+            <h1 class="title"> Courses</h1>
+            <div class="coursesection">
+                <a href="#"><img src="./Images/java.png" alt=""></a>    
+                <button onclick="enroll('Java')">Enroll</button>            
+            </div>
+            <div class="coursesection">
+                <a href="#"><img src="./Images/python.png" alt=""></a>
+                <button onclick="enroll('Python')">Enroll</button>
+            </div>
+            <div class="coursesection">
+                <a href="#"><img src="./Images/csharp.png" alt=""></a>
+                <button onclick="enroll('CSharp')">Enroll</button>
+            </div>
+            <div class="coursesection">
+                <a href="#"><img src="./Images/c++.png" alt=""></a>
+                <button onclick="enroll('C++')">Enroll</button>
+            </div>
+            <div class="coursesection">
+                <a href="#"><img src="./Images/html5.jpg" alt=""></a>
+                <button onclick="enroll('HTML5')">Enroll</button>
+            </div>
+            <div class="coursesection">
+                <a href="#"><img src="./Images/CSS3.png" alt=""></a>
+                <button onclick="enroll('CSS3')">Enroll</button>
+            </div>
+            <div class="coursesection">
+                <a href="#"><img src="./Images/javascript.png" alt=""></a>
+                <button onclick="enroll('JavaScript')">Enroll</button>
+            </div>
+            <div class="coursesection">
+                <a href="#"><img src="./Images/SAP.png" alt=""></a>
+                <button onclick="enroll('SAP')">Enroll</button>
+            </div>
+            <div class="coursesection">
+                <a href="#"><img src="./Images/react.png" alt=""></a>
+                <button onclick="enroll('ReactJs')">Enroll</button>
+            </div>
+            <div class="coursesection">
+                <a href="#"><img src="./Images/node.png" alt=""></a>
+                <button onclick="enroll('NodeJs')">Enroll</button>
+            </div>
+            <div class="coursesection">
+                <a href="#"><img src="./Images/django.png" alt=""></a>
+                <button onclick="enroll('DJango')">Enroll</button>
+            </div>
+            <div class="coursesection">
+                <a href="#"><img src="./Images/cybersecurity.jpg" alt=""></a>
+                <button onclick="enroll('CyberSecurity')">Enroll</button>
+            </div>            
+        </div>
+        <div class="achievements" id="achievements">
+            <h1 class="title">Achievements</h1>
+            <marquee behavior="scroll" direction="left" scrollamount="25">
+                <img src="./Images/achievements1.jpg" alt="">
+                <img src="./Images/achievements10.jpg" alt="">
+                <img src="./Images/achievements11.jpg" alt="">
+                <img src="./Images/Achievements2.jpg" alt="">
+                <img src="./Images/achievements3.jpg" alt="">
+                <img src="./Images/achievements4.jpg" alt="">
+                <img src="./Images/achievements5.jpg" alt="">
+                <img src="./Images/achievements6.jpg" alt="">
+                <img src="./Images/achievements7.jpg" alt="">
+                <img src="./Images/achievements8.jpg" alt="">
+                <img src="./Images/achievements9.jpg" alt="">
+            </marquee>
+        </div>
+        <div class="aboutus" id="aboutus">
+            <h1 class="title">About Us</h1>
+            <br><br>
+            <details class="dropdown">
+                <summary>Courses</summary>
+                <ul>
+                    <li>Java Programming</li>
+                    <li>Python Programming</li>
+                    <li>C++ Language</li>
+                    <li>.Net Programming</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>ReactJs</li>
+                    <li>NodeJs</li>
+                    <li>SAP</li>
+                    <li>Django</li>
+                    <li>Cyber Security</li>
+                </ul>
+            </details>
+            <details class="dropdown">
+                <summary>Branches</summary>
+                <ul>
+                    <li>Hyderabad</li>
+                    <li>Visakhapatnam</li>
+                    <li>Vijayawada</li>
+                    <li>Chennai</li>
+                    <li>Mysore</li>
+                    <li>Bangalore</li>
+                    <li>Mumbai</li>
+                    <li>Pune</li>
+                    <li>Kolkata</li>
+                    <li>Delhi</li>
+                    <li>Indore</li>
+                </ul>
+            </details>
+            <details class="dropdown">
+                <summary>About Us</summary>
+                <blockquote>CourseHub is an online and offline learning platform which allows students, freshers and working professionals to learn various new technologies currently trending in the market. CourseHub, Inc. is a global destination for teaching and learning. It was founded in May 2020 by Akhil VSVS. As of January 2023, the platform has more than 5 thousand students, 12 courses, and 100 instructors teaching courses in over 75 languages. </blockquote>
+            </details><br><br><br>
+        </div>
+        <br><br>
+        <div class="footer">
+            <div class="social">
+                <br><br><br>
+                <a href="#">Linkedin</a><br><br>
+                <a href="#">Gmail</a><br><br>
+                <a href="#">Instagram</a><br><br>
+                <a href="#">Facebook</a><br><br>
+            </div>
+            <div class="feedback">
+                <form action="#">
+                    <br>
+                    <label for="email">Email </label>&nbsp;&nbsp;&nbsp;
+                    <input type="email" placeholder="abc@gmail.com" name="email" id="email" size="40"><br><br>
+                    <label for="feedback">FeedBack </label>
+                    <textarea placeholder="Type your feedback here" name="feedback" id="feedback" cols="38" rows="10"></textarea><br>
+                    <input type="submit" name="submit" id="submit">
+                </form>
+            </div>       
+        </div>
+        <div class="contact">
+            <h1 class="phone">+919177542265</h1>
+            <h1 class="mail">akhilvsvs1999@gmail.com</h1>
+        </div>  
+    </div>   
+</body>
+</html>
